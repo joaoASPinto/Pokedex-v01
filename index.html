@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- LINKS -->
+    <link
+      rel="shortcut icon"
+      href="favicons/favicon-16x16.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <!-- main JS -->
+    <script defer src="JS/script.js"></script>
+
+    <title>Pokedéx</title>
+  </head>
+  <body>
+    <header class="header__pokedex">
+        <div class="header__principal">
+            <img class="img-logo" src="Images/pokemon-logo.png" alt="">
+        </div>        
+      <div class="header__search-box">
+
+        <div class="header__search-box_elements">
+          <div>
+            <label>Nome ou Número</label>
+            <form class="form">
+              <div class="header__search-box_content">
+                <input class="header__search-box_txt" type="search" name="search" id="">
+                <button class="header__search-box_btn" type="submit">
+                     <img src="Images/search-icon.png">                 
+                </button>
+              </div>
+            </form>
+          </div>  
+            <div class="header__search-box_info">
+                <label>Realize a busca por Pokémon pelo nome ou usando o número da Pokedex Nacional.</label>
+            </div>
+        </div>
+      </div>
+    </header>
+    <main class="main__podedex">
+
+      <img src="#" alt="pokemon" class="pokemon__image">
+      <!-- DESCRIÇÃO DO POKEMON -->
+      <h1 class="pokemon__data">
+        <span class="pokemon__number"></span>
+        <span >-</span>
+        <span class="pokemon__name"></span>
+      </h1>
+      
+      <img src="Images/pokedex2.jpg" alt="pokedex" class="pokedex">
+      <div class="pokemon__input">
+        
+          <button class="pokemon__button btn_prev">Anterior</button>
+          <button class="pokemon__button btn_next">Próximo</button>
+        
+
+      </div>
+    </main>
+    <footer></footer>
+</html>

@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(to bottom, #6ab7f5, #ffffff);
+  min-height: 100vh;
+}
+.img-logo {
+  height: 100px;
+}
+.header__pokedex {
+  background-color: #424242;
+}
+.header__principal {
+  display: flex;
+  justify-content: center;
+}
+.header__search-box {
+  display: flex;
+  justify-content: center;
+  background-color: #323232;
+}
+.header__search-box_elements {
+  max-width: 500px;
+
+  color: white;
+  padding: 25px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.header__search-box_txt {
+  height: 30px;
+  width: 80%;
+  border: 3px solid #bbbbbb;
+}
+.header__search-box_btn {
+  border: 0;
+  background-color: #ffd400;
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.header__search-box_btn:active {
+  background-color: #e2be0a;
+}
+.header__search-box_info {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 10px;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+/* ----------------------------------------- */
+/* ---------------MAIN---------------------- */
+/* ----------------------------------------- */
+.main__podedex {
+  text-align: center;
+  position: relative;
+}
+.pokemon__image {
+  /*verificar video :12 min*/
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 20%;
+  width: 40%;
+  max-width: 250px;
+  max-height: 250px;
+  margin: auto;
+}
+.pokemon__data {
+  position: absolute;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #e0e6eb;
+  text-transform: uppercase;
+}
+.pokemon__input {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: -5px;
+}
+.pokemon__button {
+  width: 48%;
+  max-width: 325px;
+  height: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #0000ff;
+  background-color: #ffd500;
+  border: 3px solid #0000ff;
+  cursor: pointer;
+}
+.pokemon__button:active {
+  background-color: #e2be0a;
+}
+.pokedex {
+  width: 100%;
+  max-width: 650px;
+}
+/*--------------------------------------*/
+/*--------------------------------------*/
+.footer {
+  background-color: #323232;
+}
